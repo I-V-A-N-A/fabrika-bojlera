@@ -2,28 +2,112 @@
 <html lang="sr">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Kontakt - Fabrika bojlera Micić">
-    <title>Kontakt - Fabrika bojlera Micić</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kontakt - Fabrika bojlera Micic">
+    <title>Kontakt - Fabrika bojlera Micic</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+        }
+
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .header {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .nav {
+            background-color: #005599;
+            overflow: hidden;
+        }
+
+        .nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        .nav a:hover {
+            background-color: #003366;
+        }
+
+       
+
+        .content {
+            flex: 1;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        h2 {
+            color: #005599;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+        }
+
+        .footer-bottom {
+            
+            color: white;
+            text-align: center;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Kontakt</h1>
-        <nav>
-            <a href="index.html">Početna</a>
-            <a href="o-nama.html">O nama</a>
-            <a href="kontakt.html">Kontakt</a>
-        </nav>
-    </header>
+    <div class="wrapper">
+        <div class="header">
+            <h1>Kontakt</h1>
+        </div>
 
-    <section>
-        <h2>Kontaktirajte nas</h2>
-        <p>Adresa: Ulica Industrijska 12, 11000 Beograd</p>
-        <p>Telefon: +381 11 123 456</p>
-        <p>Email: <a href="mailto:kontakt@micic.rs">kontakt@micic.rs</a></p>
-    </section>
+        <div class="nav">
+            <a href="index.html">Naslovna strana</a>
+            <a href="onama.html">O nama</a>
+            
+        </div>
 
-    <footer>
-        <p>Copyright © 2024 Fabrika bojlera Micić.</p>
-    </footer>
+        <div class="content">
+            <h2>Kontaktirajte nas</h2>
+            <p>Adresa: Ulica Vuka Karadzica, 31210</p>
+            <p>Telefon: +381 65 123 456</p>
+            <p>Email: <a href="mailto:kontakt@micic.rs">kontakt@micic.rs</a></p>
+        </div>
+
+        <footer>
+            <p></p>
+            <div class="footer-bottom">
+                Fabrika bojlera Micic
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
